@@ -1,0 +1,237 @@
+*{font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;
+}
+.navbox{
+width: 100%;
+}
+.navone{
+  width: 100%;
+}
+.navtwo{
+  width: 100%;
+  background-color: #252525;
+  float: left;
+  height: 50px;
+  }
+a{text-decoration: none;}
+
+.nav_one_ul{  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+ display: inline-block;
+ }
+
+
+ .nav_one_li  {
+  float: left;
+
+}
+ .nav_one_li a, .searchbox ,.searchbtn{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+
+}
+.searchbox{
+  margin-top: 60px;
+  
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #ebebeb;
+  float: left;
+  width: 80%;
+  background: #fff;}
+
+
+.carta{margin-top: 70px;
+margin-left: 350px;
+font-size: 20px;}
+.logouta{
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+#logo{
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+.searchbtn{
+  float: right;
+  width: 20%;
+  padding: 10px;
+  background: #AEC6CF;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #ebebeb;
+  border-left: none;
+  cursor: pointer;
+ margin-top: 60px;
+}
+.searchbtn:hover{
+  background-color: #759BA9
+}
+.searchform{margin-left: 250px;
+width: 90%;}
+
+
+
+.nav_two_li{float: left;
+padding-left: 30px;}
+ .nav_two_li a{
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 25px;
+
+ 
+}
+.nav_two_li a:hover{
+  background-color: #AEC6CF;
+}
+.navtwocontainer{
+  margin-left: 37%;
+ 
+}
+.nav_two_ul{  
+  list-style-type: none;
+  
+  padding: 0;
+   margin: 0;
+  overflow: hidden;
+ display: inline-block;
+  width: 60%;
+  text-align: center;
+ }
+ li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logindiv{ border: 1.5px solid #AEC6CF;
+     position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 4px;
+}
+.logintable td{
+  padding: 30px;
+}
+.registerinput{  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+  .submitbtn{
+  background-color: #AEC6CF;
+  width: 80%;
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+    border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #303030;
+  cursor: pointer;
+  }
+
+  .submitbtn:hover{
+  background-color: #759BA9;
+  }
+  /* Hide the browser's default checkbox */
+
+.registerinnercontainer1{float: left;}
+.registerinnercontainer2{float: left;
+width: 400px;
+padding-left: 90px;
+}
+.registercontainer{
+  border: 1.5px solid #AEC6CF;
+     position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.product_list_table{
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+.categoryselect{
+ 
+ 
+    border: 1px solid transparent;
+  border-color: #ccc;
+  cursor: pointer;
+     border-radius: 4px;
+  width: 100%;
+  height:30px;
+
+}
+.addcontainer{ 
+  border: 1.5px solid #AEC6CF;
+     position: absolute;
+    margin-top: 100px;
+     margin-left: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 550px;
+    padding: 30px;
+    border-radius: 4px;
+    }
+    * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+/* Slideshow container */
+.slideshow-container{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
